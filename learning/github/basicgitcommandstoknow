@@ -1,0 +1,83 @@
+Basic Git Commands to know
+
+git init creates a .git folder // initialize Local Git Repository
+
+git add <file> // Add Files to the staging area
+
+git status //check status of Working tree. It will show the differences.
+
+git commit //in the index/staging commit changes in index
+
+git push local repository remote repository like github
+
+git pull //Pull the latest changes. 
+
+git clone copy/clone program,module and project to your local machine
+
+
+Creating a Project
+Create folder
+Add folder to the workspace
+in the folder create:
+ indexx.html
+app.js
+
+fillout the html code
+save 
+
+to initialize this folder (unboundquest) as a git repository in the cmd window run 
+git init
+
+Initialized empty Git repository in /Users/hefe/unboundquest/.git/
+
+add your email
+
+git config --global user.name 'Jeff Martinez'
+git config --global user.email 'jeffrey.martinez@logdna.commit
+
+
+git add index.html to our git repository
+
+git status in the index file has files to commit
+
+git add*.html (adds any html files)
+
+git add . (add everyfile)
+
+
+lets do git commit 
+
+
+editing the app.js file
+console.log('Hello Unboundquest');
+
+git commit -m 'Changed app.js' (adds the comment without having to enter vi, or nano)
+
+git ignore (ignores and files and directories when you do git add . (for all files))
+touch .gitignore
+add the filename (basic git commands to know)
+ save it
+
+git add .
+you can add directories so that you can ignore them
+
+
+
+#Working with other peoples and Branch
+
+Create a branch 
+This way you can you work in that branch and you dont have commit to the master branch
+
+#to add a branch
+git status (check which branch you are in )
+git branch (branch name: login)
+git checkout (branch name:login) will switch us to the branch login to work out of
+
+create a file 
+touch login.html
+edit the index.html (added Login Form in the body)
+
+git add .
+
+git commit -m 'login form'
+
